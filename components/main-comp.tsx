@@ -1,7 +1,6 @@
 "use client"
 import React, { useState, useEffect } from 'react'
 import { LoaderOne } from './ui/loader'
-import { Github } from 'lucide-react'
 
 const Main = () => {
   const [loading, setLoading] = useState<boolean>(true)
